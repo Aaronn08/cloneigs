@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clone_igs</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+            min-height: 200vh;
+        }
+
+        header {
+            height: 120px;
+            display: flex; /* Menjadikan header sebagai flex container */
+            align-items: center; /* Menyatukan elemen secara vertikal */
+
+        }
+
+        nav{
+            position: sticky;
+            top: 0;
+            height: 80px;
+            background-color: salmon;
+            display: flex;
+            /* background-color: whitesmoke; */
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 0;
+        }
+
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color:white;
+            font-size: 12pt;
+        }
+        
+        header h1{
+            margin-left: 20px;
+            color: blue;
+            font-size: 20pt;
+            margin-top: 30px;
+            cursor: pointer;
+        }
+        header div.profile-picture{
+            width: 60px;
+            height: 60px;
+            margin-left: 30px;
+            background-image: url("image.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+
+        }
+        .container{
+            display: grid;
+            width: 90%;
+            /* background-color: orange; */
+            margin: 10px auto;
+            padding: 0;
+            margin-top: 0;
+        }
+        .item1{
+            background-image: url("genshin.png");
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            height: 450px;
+            text-align: center;
+            cursor: pointer;
+            }
+        
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>IGNATIUS GLOBAL SCHOOL</h1>
+        <div class="profile-picture"></div>
+        <a href="#" class="profile-picture"></a>
+    </header>
+    <nav>
+        <div class="text">
+            <a href="https://www.ignatiusglobal.sch.id/">BERANDA</a>
+            <a href="https://www.ignatiusglobal.sch.id/read/2/profil">PROFIL</a>
+            <a href="https://www.ignatiusglobal.sch.id/#">DIREKTORI</a>
+            <a href="https://www.ignatiusglobal.sch.id/#">PPDB 2021/2022</a>
+            <a href="https://www.ignatiusglobal.sch.id/#">GALERI</a>
+            <a href="https://www.ignatiusglobal.sch.id/read/2/profil">PROFIL</a>
+            <a href="https://belajar-online.ignatiusglobal.sch.id/login">E-LEARNING</a>
+            <a href="https://www.ignatiusglobal.sch.id/read/42/jlpt-test">JLPT TEST</a>
+            <a href="https://www.ignatiusglobal.sch.id/read/14/panduan-masuk-e-learning">PANDUAN MOODLE</a>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="item1"></div>
+    </div>
+</body>
+</html>
